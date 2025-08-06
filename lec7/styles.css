@@ -1,0 +1,17 @@
+body {
+  height: 2000px;
+}
+
+
+section {
+  background-image: url("./BG.png");
+  height: 500px;
+  /* background-position: left bottom; */
+  /* background-attachment: fixed; */
+}
+
+section+div {
+  height: 50px;
+  border: 1px solid red;
+  margin-block: 50px;
+}
